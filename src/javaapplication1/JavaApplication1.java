@@ -24,7 +24,7 @@ public class JavaApplication1 {
     Scanner Keyboard = new Scanner (System.in);
     //Paso 2. Asignar valores a las variables.
     System.out.println("Introduce el peso");
-    w=keyboard.nextDouble();
+    w=Keyboard.nextDouble();
     System.out.println("Introduce la estatura");
     l=Keyboard.nextDouble();
     //Paso 3. Resolver el problema.
@@ -38,17 +38,11 @@ public class JavaApplication1 {
          eIMC="Normal";
      }          
                    
-               }
-               //Paso 4. Mostar elresultado.
+            
+//Paso 4. Mostar el resultado.
 System.out.println("peso=" + w);
 System.out.println("estatura= " + l);
 System.out.println("IMC= " +imc);
-if (imc>25){
-System.out.println("Sobre peso");
-}else if (imc<19){
-System.out.println("Desnutriciòn");
-}else{
- System.out.println("Normal");
-}
-    
+System.out.println("eIMC");  
+    }
 }
